@@ -1,1 +1,13 @@
-# RNAclass
+<h1>RNA-ClassificadorIrisPCA-ExemploLAB</h1>
+<p>Este repositório contém um exemplo de classificação de espécies de plantas íris usando redes neurais artificiais (RNA) e análise de componentes principais (PCA) em Python.</p><h2>Dependências</h2><p>Antes de executar o código, certifique-se de ter as seguintes dependências instaladas em sua máquina:</p>
+<ul>
+    <li>Python (versão 3.6 ou superior)</li>
+    <li>NumPy (versão 1.23.5 ou superior)</li>
+    <li>SciPy (versão 1.10.1 ou superior)</li>
+    <li>scikit-learn (versão 1.2.2 ou superior)</li>
+    <li>matplotlib (versão 3.7.1 ou superior)</li>
+</ul>
+<p>Você pode instalar todas essas dependências de uma só vez usando o arquivo <code>requirements.txt</code> incluído neste repositório. Para fazer isso, execute o seguinte comando no terminal:</p>
+<pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">pip install -r requirements.txt
+</code></div></div></pre><h2>Como usar</h2><p>Para usar este exemplo, siga as seguintes instruções:</p><ol><li><p>Clone o repositório em sua máquina local usando o comando <code>git clone</code>.</p></li><li><p>Navegue para o diretório clonado usando o terminal.</p></li><li><p>Execute o arquivo <code>RNA-ClassificadorIrisPCA-ExemploLAB.py</code> usando o seguinte comando:</p></li></ol><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">python RNA-ClassificadorIrisPCA-ExemploLAB.py
+</code></div></div></pre><p>Isso executará o código e exibirá os gráficos de dispersão e as matrizes de confusão para os classificadores RNA e RNA-PCA.</p>
